@@ -1,0 +1,39 @@
+.box {
+    width: 50%;
+    min-height: 150px;
+    margin: 20px 30px 40px 60px;
+    /*o valor do padding é adicionado a largura e altura do box*/
+    padding: 20px 30px 50px 60px;
+    /*usa para não ter espaçamento no padding*/
+    box-sizing: border-box;
+}
+
+.bg-red {
+    background-color: #900;
+}
+
+.bg-blue {
+    background-color: #369;
+}
+
+.bg-orange {
+    background-color: #f60;
+}
+
+#big {
+    width: 500px;
+    height: 400px;
+    background-color: #290;
+}
+
+
+/*1VW é igual a 1% da largura ou altura da tela*/
+
+
+/*adaptavel na tela*/
+
+.view {
+    width: 98vw;
+    height: 100vh;
+    background-color: #000;
+}
