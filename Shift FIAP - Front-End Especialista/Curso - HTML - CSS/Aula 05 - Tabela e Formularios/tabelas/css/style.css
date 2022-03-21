@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(113, 84, 139);
+}
+
+table {
+    margin: 10px auto;
+    width: 70rem;
+    font-size: 2rem;
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: rgb(155, 141, 149);
+    color: #fff;
+}
+
+td,
+td {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* even: pega os filhos que são pares 
+odd: pega os impares
+*/
+
+tbody tr:nth-child(odd) {
+    color: rgb(105, 6, 81);
+}
+
+
+/* a ultima TR */
+
+tbody tr:last-of-type {
+    border-bottom: 2rem solid rgb(155, 141, 149);
+}
+
+tbody tr:hover {
+    background-color: rgb(143, 111, 129);
+    color: black;
+}
+
+tfoot {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
