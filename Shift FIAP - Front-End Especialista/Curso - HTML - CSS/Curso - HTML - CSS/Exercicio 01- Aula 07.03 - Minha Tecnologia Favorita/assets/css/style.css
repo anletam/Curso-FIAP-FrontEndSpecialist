@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Raleway:wght@200&display=swap');
+body {
+    font-family: 'Noto Serif', serif;
+    font-family: 'Raleway', sans-serif;
+    background-color: #53215350;
+    line-height: 25px;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(65, 17, 65);
+    text-align: center;
+    font-weight: bold;
+}
+
+p,
+ul {
+    font-weight: bold;
+    color: black;
+}
+
+img {
+    width: 400px;
+    display: inline-block;
+}
+
+div {
+    text-align: center;
+}

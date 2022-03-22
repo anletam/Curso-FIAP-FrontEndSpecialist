@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+
+    <!-- css interno -->
+
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        div {
+            margin-bottom: 1rem;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="" id="dados" name="dados" method="post">
+        <div>
+            <label for="user">Usuário:</label>
+            <input type="text" id="user" name="user" placeholder="Ex: Digite seu usuário" maxlength="10" minlength="4" required autofocus>
+            <!-- <input type="submit" value="enviar"> -->
+        </div>
+        <div>
+            <label for="pass">Senha:</label>
+            <input type="password" id="pass" name="pass" placeholder="Ex: 12345" maxlength="8" minlength="5" required>
+            <!-- <input type="submit" value="enviar"> -->
+        </div>
+        <div>
+            <p>Selecione sua área de atuação:</p>
+            <input type="radio" name="area" id="area1" value="1">
+            <label for="area1">Front-End</label>
+
+            <input type="radio" name="area" id="area2" value="2">
+            <label for="area2">Back-End</label>
+
+            <input type="radio" name="area" id="area3" value="3" checked>
+            <label for="area3">Full-Stack</label>
+
+            <input type="radio" name="area" id="area4" value="4">
+            <label for="area4">DevOps</label>
+        </div>
+    </form>
+</body>
+
+</html>
