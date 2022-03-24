@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+
+    <!-- css interno -->
+
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        div {
+            margin-bottom: 1rem;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="" id="dados" name="dados" method="post">
+        <div>
+            <label for="user">Usuário:</label>
+            <input type="text" id="user" name="user" placeholder="Ex: Digite seu usuário" maxlength="10" minlength="4" required autofocus>
+            <!-- <input type="submit" value="enviar"> -->
+        </div>
+        <div>
+            <label for="pass">Senha:</label>
+            <input type="password" id="pass" name="pass" placeholder="Ex: 12345" maxlength="8" minlength="5" required>
+            <!-- <input type="submit" value="enviar"> -->
+        </div>
+        <div>
+            <p>Selecione sua área de atuação:</p>
+            <input type="radio" name="area" id="area1" value="1">
+            <label for="area1">Front-End</label>
+
+            <input type="radio" name="area" id="area2" value="2">
+            <label for="area2">Back-End</label>
+
+            <input type="radio" name="area" id="area3" value="3" checked>
+            <label for="area3">Full-Stack</label>
+
+            <input type="radio" name="area" id="area4" value="4">
+            <label for="area4">DevOps</label>
+        </div>
+        <div>
+            <p>Selecione suas preferências:</p>
+            <input type="checkbox" name="viajar" id="viajar" value="1" checked>
+            <label for="viajar">Viajar</label>
+
+            <input type="checkbox" name="games" id="games" value="2" checked>
+            <label for="games">Jogar videogame</label>
+
+            <input type="checkbox" name="ler" id="ler" value="3" checked>
+            <label for="ler">Ler</label>
+
+            <input type="checkbox" name="comer" id="comer" value="4" checked>
+            <label for="comer">Comer</label>
+        </div>
+
+        <div>
+            <label for="education">Selecione sua formação:</label>
+            <select name="education" id="education">
+                <option value="0" disabled selected>Escolha uma opção</option>
+                <option value="1">Ensino Médio</option>
+                <option value="2">Ensino Superior</option>
+                <option value="3">Pós Graduação</option>
+                <option value="4">Mestrado</option>
+                <option value="5">Doutorado</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="education1">Selecione sua formação: (datalist)</label>
+            <input list="education1">
+            <datalist name="education1" id="education1">
+                <option value="Ensino Médio">
+                <option value="Ensino Superior">
+                <option value="Pós Graduação">
+                <option value="Mestrado">
+                <option value="Doutorado">
+            </datalist>
+        </div>
+
+        <div>
+            <label for="file">Selecionar aquivo:</label>
+            <input type="file" id="file" name="file">
+        </div>
+
+        <div>
+            <label for="time">Selecione o horario:</label>
+            <input type="time" name="time" id="time">
+        </div>
+
+        <div>
+            <label for="dateTime">Data da viagem e hora</label>
+            <input type="datetime-local" name="dateTime" id="dateTime">
+        </div>
+
+        <div>
+            <label for="week">Mês</label>
+            <input type="week" name="week" id="week">
+        </div>
+
+        <div>
+            <label for="number">Número</label>
+            <input type="number" name="number" id="number">
+        </div>
+
+        <div>
+            <label for="range">Escala</label>
+            <input type="range" name="range" id="range" min="10" max="40" step="2">
+        </div>
+
+        <div>
+            <label for="tel">Celular</label>
+            <input type="tel" name="tel" id="tel">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div>
+            <label for="url">Seu site</label>
+            <input type="url" name="url" id="url">
+        </div>
+
+        <div>
+            <label for="search">Pesquisa</label>
+            <input type="search" name="search" id="search">
+        </div>
+
+        <div>
+            <label for="color">Cor</label>
+            <input type="color" name="color" id="color">
+        </div>
+    </form>
+</body>
+
+</html>
