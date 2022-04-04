@@ -1,0 +1,14 @@
+Prefixos das classes
+bg-nome da cor (background)
+text = texto
+m = margin
+p = padding
+btn = botão
+fluid = responsivo
+
+prefixos de tela (breakpoint)
+sm
+md
+lg 
+xl
+xxl

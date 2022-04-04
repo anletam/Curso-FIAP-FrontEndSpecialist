@@ -1,0 +1,12 @@
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.carousel-inner,
+.carousel-item {
+    max-height: 80vh;
+}
