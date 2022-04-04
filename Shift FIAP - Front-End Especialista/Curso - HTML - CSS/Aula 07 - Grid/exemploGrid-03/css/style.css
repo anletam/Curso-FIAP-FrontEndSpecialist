@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    grid-template-areas: "gallery-image-01 gallery-image-01 gallery-image-03 gallery-image-04";
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-image-01 {
+    grid-area: gallery-image-01;
+}
+
+.gallery-image-02 {
+    grid-area: gallery-image-02;
+}
+
+.gallery-image-03 {
+    grid-area: gallery-image-03;
+}
+
+.gallery-image-04 {
+    grid-area: gallery-image-04;
+}
+
+.gallery-image-05 {
+    grid-area: gallery-image-05;
+}
+
+.gallery-image-06 {
+    grid-area: gallery-image-06;
+}
+
+.gallery-image-07 {
+    grid-area: gallery-image-07;
+}
+
+.gallery-image-08 {
+    grid-area: gallery-image-08;
+}
+
+.gallery-image-09 {
+    grid-area: gallery-image-09;
+}
+
+.gallery-image-10 {
+    grid-area: gallery-image-10;
+}
+
+.gallery-image-11 {
+    grid-area: gallery-image-11;
+}
+
+.gallery-image-12 {
+    grid-area: gallery-image-12;
+}
+
+.gallery-image-01 {
+    grid-area: gallery-image-13;
+}
+
+.gallery-image-13 {
+    grid-area: gallery-image-14;
+}
+
+.gallery-image-15 {
+    grid-area: gallery-image-15;
+}
+
+.gallery-image-16 {
+    grid-area: gallery-image-16;
+}
+
+.gallery-image-17 {
+    grid-area: gallery-image-17;
+}
+
+.gallery-image-18 {
+    grid-area: gallery-image-18;
+}
